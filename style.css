@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 197, 197);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+    background-color: rgb(26, 96, 43);
+    color: rgb(234, 235, 236);
+}
+
+
+#profil {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#profil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+th {
+    background-color:rgb(26, 96, 43);
+    color: white;
+    font-weight: bold;
+}
+
+#profil2 {
+ 
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#keterampilan {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#keterampilan h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#keterampilan ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#keterampilan ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#keterampilan ul li::marker {
+    font-size: 1.5em;
+    color: green;
+    text-align: center;
+}
+
+#kontak {
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+}
+
+#kontak h2 {
+    font-size: 1.5em;
+}
+
+#kontak p {
+    font-size: 1.2em;
+}
+
+
+   
